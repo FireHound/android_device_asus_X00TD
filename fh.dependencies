@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "LineageOS/android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "branch" : "lineage-15.1"
+  },
+  {
+    "repository": "X00TD/android_kernel_asus_sdm660",
+    "target_path": "kernel/asus/sdm660",
+    "branch" : "lineage-15.1"
+  },
+  {
+    "repository": "X00TD/android_vendor_asus", 
+    "target_path": "vendor/asus",
+    "branch" : "lineage-15.1"
+  }
+]
