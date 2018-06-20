@@ -2335,11 +2335,16 @@ vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
+vendor/bin/gatekeeperd
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
+vendor/etc/init/gatekeeperd.rc
 vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib/hw/gatekeeper.sdm660.so
+vendor/lib/libgatekeeper.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib64/hw/gatekeeper.sdm660.so
+vendor/lib64/libgatekeeper.so
+vendor/lib64/android.hardware.gatekeeper@1.0.so
 
 # GPS
 etc/permissions/com.qti.location.sdk.xml
