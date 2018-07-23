@@ -19,7 +19,7 @@ RAW_ID=`cat /sys/devices/soc0/raw_id`
 
 if [ $RAW_ID == 204 ]; then
     # Remove NFC
-    rm -rf /system/app/NfcNci
+    rm -rf /system/app/*Nfc*
     rm -rf /system/etc/permissions/*nfc*
     rm -rf /system/framework/*nfc*
     rm -rf /system/lib/*nfc*
